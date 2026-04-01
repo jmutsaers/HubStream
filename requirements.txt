@@ -1,8 +1,8 @@
-streamlit==1.55.0
-requests==2.31.0
-openai==1.31.0
-beautifulsoup4==4.12.2
-markdown2==2.4.10
-python-dotenv==1.0.0
-sqlalchemy==2.0.23
+streamlit==1.40.0
+requests==2.32.0
+openai==1.51.0
+beautifulsoup4==4.12.3
+markdown2==2.5.0
+python-dotenv==1.0.1
+sqlalchemy==2.0.35
 google-search-results==2.4.2

@@ -46,7 +46,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-col_logo, col_title = st.columns([0.8, 3], vertical_alignment="center", gap="xxsmall")
+col_logo, col_title = st.columns([0.8, 3], vertical_alignment="center", gap="small")
 
 with col_logo:
     st.image("assets/HubSpot Logo.svg", width=150)

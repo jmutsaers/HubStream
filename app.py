@@ -39,9 +39,12 @@ if "ideas_confirmed" not in st.session_state:
     st.session_state.ideas_confirmed = False
 
 # Page config
+app_icon_path = "assets/HubSpot Logo.svg"
+page_icon = app_icon_path if os.path.exists(app_icon_path) else ":sparkles:"
+
 st.set_page_config(
     page_title="HubStream",
-    page_icon="assets/HubSpot Logo.svg",  # let op: komma aan het eind
+    page_icon=page_icon,
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -49,7 +52,10 @@ st.set_page_config(
 col_logo, col_title = st.columns([0.8, 3], vertical_alignment="center", gap="small")
 
 with col_logo:
-    st.image("assets/HubSpot Logo.svg", width=150)
+    if os.path.exists(app_icon_path):
+        st.image(app_icon_path, width=150)
+    else:
+        st.markdown("**HubStream**")
 
 with col_title:
     st.markdown(

@@ -1,0 +1,43 @@
+# HubStream 2.0 - Git Ignore Rules
+
+# Environment variables (contains API keys)
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+hubstream.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test files (optional - uncomment if you want to exclude)
+# test_*.py
+# *_test.py
+
+# Deployment artifacts
+.streamlit/secrets.toml

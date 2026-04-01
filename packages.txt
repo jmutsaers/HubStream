@@ -1,0 +1,11 @@
+# System dependencies for Streamlit Cloud
+# These are installed at the system level before Python packages
+
+# For SQLite support (usually included)
+sqlite3
+
+# For SSL/TLS connections (usually included)
+openssl
+
+# For HTTP requests (usually included)
+curl

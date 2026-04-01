@@ -1,5 +1,0 @@
-# System dependencies for Streamlit Cloud
-# These are installed at the system level before Python packages
-
-# Most packages (sqlite3, openssl, curl) are already included in Streamlit Cloud
-# Only add packages that are truly missing and required
